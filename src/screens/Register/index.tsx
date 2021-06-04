@@ -46,8 +46,6 @@ export function Register() {
     // icon: 'any'
   })
 
-  const datakey = '@gofinances:transactions';
-
   const navigation = useNavigation();
 
   const {
@@ -87,6 +85,7 @@ export function Register() {
       date: new Date()
     }
     try {
+      const datakey = '@gofinances:transactions';
       const data = await AsyncStorage.getItem(datakey);
       const currentData = data ? JSON.parse(data) : [];
 
