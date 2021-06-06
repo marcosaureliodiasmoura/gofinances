@@ -16,6 +16,8 @@ import {
 } from '@expo-google-fonts/poppins';
 
 import { AppRoutes } from './src/routes/app.routes';
+import { SignIn } from './src/screens/SignIn';
+import { AuthProvider } from './src/hooks/auth';
 
 import theme from './src/global/styles/theme';
 import AppLoading from 'expo-app-loading';
@@ -33,8 +35,11 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <NavigationContainer>
-        <StatusBar barStyle="light-content"/>
-        <AppRoutes />
+        <StatusBar barStyle="light-content" />
+        {/* <AppRoutes /> */}
+        <AuthProvider>
+          <SignIn />
+        </AuthProvider>
       </NavigationContainer>
     </ThemeProvider>
   );
