@@ -107,7 +107,7 @@ function AuthProvider({ children }: AuthProviderProps) {
     }
 
     loadUserStorageData();
-  },[])
+  },[]);
 
   return (
     <AuthContext.Provider value={{
