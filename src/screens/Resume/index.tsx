@@ -7,6 +7,7 @@ import {useFocusEffect} from '@react-navigation/native';
 
 import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
 import { useTheme } from 'styled-components/native';
+import { useAuth } from '../../hooks/auth';
 
 import { categories } from '../../utils/categories';
 import { RFValue } from 'react-native-responsive-fontsize';
@@ -50,6 +51,7 @@ export function Resume() {
   const [totalByCategories, setotalByCategories] = useState<CategoryDataProps[]>([]);
 
   const theme = useTheme();
+  const {user} = useAuth();
 
   function handleChangeDate(action: 'next' | 'prev') {
 
@@ -64,7 +66,7 @@ export function Resume() {
   async function loadData() {
     setIsLoading(true);
 
-    const datakey = '@gofinances:transactions';
+    const datakey = `@gofinances:transactions_user:${user.id}`;
     const response = await AsyncStorage.getItem(datakey);
     const responseFormatted = response ? JSON.parse(response) : [];
 
