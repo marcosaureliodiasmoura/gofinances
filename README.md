@@ -1,8 +1,8 @@
 # gofinances
 App Finances in React Native - Expo 
 
-![alt-text-1](<img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif" width="300" height="600"/>
- "title-1") ![alt-text-2](<img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif" width="300" height="600"/>
+![alt-text-1](https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif
+ "title-1") ![alt-text-2](https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif
  "title-2")
 
 
