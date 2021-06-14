@@ -3,9 +3,9 @@ App Finances in React Native - Expo
 
 
 <p float="left">
-  <img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif" width="200" hspace="20"/>
-  <img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/2.gif" width="200" hspace="20"/> 
-  <img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/3.gif" width="200" hspace="20"/>
+  <img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif" width="230" hspace="20"/>
+  <img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/2.gif" width="230" hspace="20"/> 
+  <img src="https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/3.gif" width="230" hspace="20"/>
 </p>
 
 
