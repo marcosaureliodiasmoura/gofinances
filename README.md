@@ -2,7 +2,7 @@
 App Finances in React Native - Expo 
 
 
-![](https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif=50x50)
+![](https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/1.gif | width=100)
 
 ![](https://github.com/marcosaureliodiasmoura/gofinances/blob/master/src/assets/gifs/2.gif)
 
